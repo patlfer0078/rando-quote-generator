@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+
+* {
+  font-family: 'Grenze Gotisch',cursive;
+  margin: 5px;
+  padding: 0;
+}
+
+#quote-box{
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+#tweet-quote:hover{
+  opacity: 0.7;
+}
+
+.new-quote-button:hover{
+  opacity: 0.7;
+}

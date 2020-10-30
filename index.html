@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+  <!--JavaScript-->
+  <script type="text/javascript" src="app.js"></script>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!--Font Awesome-->
+  <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+/>
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <title>Random Quote Machine</title>
+</head>
+
+<body>
+  <div id="container" class="container-sm card mt-5">
+    <div id="quote-box" class='card-body text-center p-2'>
+      <div class="quote-text">
+        <i class="fa fa-quote-left"></i>
+        <span id="text"></span>
+        <i class="fa fa-quote-right"></i>
+      </div>
+      <div class="quote-author">-
+        <span id="author"></span>
+      </div>
+      <div class="buttons">
+        <a src="#" href="https://twitter.com/intent/tweet" id="tweet-quote" class='btn btn-primary' title="Tweet this quote!" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
+        <button id="new-quote" class="btn btn-large btn-dark new-quote-button" onClick="generateQuote()">New Quote</button>
+      </div>
+    </div>
+    <div class="text-center">made by patlfer0078</div>
+  </div>
+</body>
+</html>
